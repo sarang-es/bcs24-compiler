@@ -17,6 +17,10 @@ extern FILE *yyin;
 %token LPAREN RPAREN
 %token LBRACE RBRACE
 
+
+%left PLUS
+%left MULT
+
 %%
 
 program

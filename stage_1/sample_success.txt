@@ -1,0 +1,27 @@
+BcsMain
+{
+int a; int b; int c; int d; int x; bool flag;
+
+a=10;
+b=20;
+c=a+b*5;
+d=c+a*b+10;
+x=d*2+a+b;
+if(a<b)
+{
+c=c+a*b;
+d=d+c+10
+}
+else
+{
+c=c+10;
+d=d*a+b
+};
+while(c<d)
+{
+a=a+1;
+b=b+a*2;
+c=c+b+10
+};
+x=x+c*d
+}

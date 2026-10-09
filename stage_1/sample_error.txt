@@ -1,0 +1,24 @@
+BcsMain
+{
+int a; int b; int c; int d;
+
+a=10;
+b=20;
+c=a+b*5;
+if(a<b)
+{
+d=c+a;
+b=b+1
+}
+else
+{
+d=d+10;
+c=c*2
+};
+while(c<d)
+{
+a=a+1;
+c=c+a;
+};
+d=d*2+a
+}

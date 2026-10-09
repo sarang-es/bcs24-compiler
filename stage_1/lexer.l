@@ -1,5 +1,9 @@
 %{
 #include "parser.tab.h"
+int yywrap(void)
+{
+    return 1;
+}
 %}
 
 %%
@@ -33,6 +37,6 @@
 "{"       { return LBRACE; }
 "}"       { return RBRACE; }
 
-[ \t\n]+  { /* ignore whitespace */ }
+[ \t\n]+  { }
 
-.         { return yytext[0]; }    /* any other character is returned as itself */
+%%

@@ -1,0 +1,9 @@
+BcsMain
+{
+int a;
+int b;
+
+a=10;
+b=a+5;
+c=b+10
+}
