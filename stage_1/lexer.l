@@ -6,6 +6,8 @@ int yywrap(void)
 }
 %}
 
+%option nounput noinput
+
 %%
 
 "int"       { return INT; }
